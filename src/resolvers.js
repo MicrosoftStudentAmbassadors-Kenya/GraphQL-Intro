@@ -1,37 +1,38 @@
-import { posts } from './data'
+import { books } from './data'
 
-let postsLength = posts.length
+let booksLength = books.length
 const resolvers = {
     Query: {
-        posts: () => posts,
-        post: (_root, args, _ctx) => {
-            const postId = args.id
+        books: () => books,
+        book: (_root, args, _ctx) => {
+            const bookId = args.id
 
-            const post = posts.find(post => post.id = postId)
-            return post
+            let book = books.find(book => book.id = bookId)
+            return book
         }
     },
     Mutation: {
-        createPost: (_root, args, _ctx) => {
-            const post = {
-                id: `post-${++postsLength}`,
+        createBook: (_root, args, _ctx) => {
+            const book = {
+                id: `book-${++booksLength}`,
                 title: args.title,
                 author: args.author,
-                body: args.body,
-                published: false
+                description: args.body,
+                published: false,
+                rating: args.rating
             }
 
-            posts.push(post)
-            return post
+            books.push(book)
+            return book
 
         },
-        publishPost: (_root, args, _ctx) => {
-            const postId = args.id
+        publishBook: (_root, args, _ctx) => {
+            const bookId = args.id
 
-            let post = posts.find(post => post.id = postId)
-            post.published = true
-            console.log(post)
-            return post
+            let book = books.find(book => book.id = bookId)
+            book.published = true
+            console.log(book)
+            return book
         }
     }
 }
