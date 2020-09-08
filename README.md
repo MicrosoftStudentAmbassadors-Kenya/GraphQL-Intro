@@ -1,4 +1,4 @@
-# 🚀 GraphQL Introduction with Apollo Server
+# 🚀 An Introduction to GraphQL with Apollo Server
 
 GraphQL is a query language for APIs that gives a more efficient alternative to REST. It enables declarative data fetching, meaning a client (web, mobile application e.t.c) can specify exactly what data it needs from an API on a single endpoint.
 
