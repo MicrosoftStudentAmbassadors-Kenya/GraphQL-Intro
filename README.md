@@ -26,8 +26,9 @@ npm install # or alternatively yarn
 npm start # or run yarn start
 ```
 
-This runs the API in development mode
-Open [http://localhost://4000](http://localhost:4000) to interact with the ⚛ GraphQL Playground
+This runs the API in development mode.
+
+Open [http://localhost:4000](http://localhost:4000) to interact with the ⚛ GraphQL Playground
 
 Your GraphQL Playground should look something similar to this:
 
@@ -55,6 +56,6 @@ Congratulations! You just made your first GraphQL query 🎉🍾
 Feel free to extend the starter code by connecting it to an existing database or integrate it with a REST API😉 
 
 ### Learn More:
-Explore building GraphQL APIs with [Apollo Server](https://www.apollographql.com/docs/apollo-server/getting-started/#step-3-define-your-graphql-schema)
+Explore building GraphQL APIs with [Apollo Server](https://www.apollographql.com/docs/apollo-server/getting-started/)
 
 Dive deeper into GraphQL fundamentals at [https://www.howtographql.com/](https://www.howtographql.com/)
