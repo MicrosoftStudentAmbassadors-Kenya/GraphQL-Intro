@@ -1,5 +1,7 @@
 # 🚀 GraphQL Introduction with Apollo Server
 
+GraphQL is a query language for APIs that gives a more efficient alternative to REST. It enables declarative data fetching, meaning a client (web, mobile application e.t.c) can specify exactly what data it needs from an API on a single endpoint.
+
 This repo contains example code to help you get started in your journey building GraphQL APIs 💪🏾
 
 ### Clone the Repository:
@@ -53,9 +55,11 @@ Congratulations! You just made your first GraphQL query 🎉🍾
 
 **This repository uses an in-memory database**
 
-Feel free to extend the starter code by connecting it to an existing database or integrate it with a REST API😉 
+Feel free to extend the starter code by connecting it to an existing database or integrate it with a REST API😉
+
+You can make this repo your own by forking it as well 😀 
 
 ### Learn More:
-Explore building GraphQL APIs with [Apollo Server](https://www.apollographql.com/docs/apollo-server/getting-started/)
-
 Dive deeper into GraphQL fundamentals at [https://www.howtographql.com/](https://www.howtographql.com/)
+
+Explore building GraphQL APIs with [Apollo Server](https://www.apollographql.com/docs/apollo-server/getting-started/)
