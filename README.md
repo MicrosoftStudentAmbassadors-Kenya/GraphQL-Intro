@@ -81,6 +81,8 @@ Feel free to extend the starter code by connecting it to an existing database or
 
 You can make this repo your own by forking it as well 😀 
 
+Give this repo a ⭐ to help others find it.
+
 ### Learn More:
 Dive deeper into GraphQL fundamentals at [https://www.howtographql.com/](https://www.howtographql.com/)
 
