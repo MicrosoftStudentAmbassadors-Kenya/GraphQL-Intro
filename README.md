@@ -4,6 +4,28 @@ GraphQL is a query language for APIs that gives a more efficient alternative to 
 
 This repo contains example code to help you get started in your journey building GraphQL APIs 💪🏾
 
+## Get Started using Codesandbox 📦
+
+Codesandbox is an online IDE for quickly building web applications. 🏎 
+
+Create a free account on [Codesandbox](https://codesandbox.io) if you don't have one yet. 😉
+
+Once you have signed in, select create a new sandbox which will be at the top right of the page. On the popup that shows up on the page, select import project option and under the `Import from Github` section, paste in the following link: `https://github.com/MicrosoftStudentAmbassadors-Kenya/GraphQL-Intro.git`. Once you are done, click import and fork.
+
+You should see something that resembles this before selecting import and fork.: 
+
+![codesandbox screenshot](./images/codesandbox-1.png)
+
+ Give it a moment to start up.... and ...⏲... done!
+
+ Your screen should resemble this:
+
+ ![codesandbox editor](./images/codesandbox-2.png)
+
+ If you've gotten this far, head over to the section on [Trying your first query](#try-out-your-first-query) 🎉🎉
+
+## Get Started Locally
+
 ### Clone the Repository:
 
 ```bash
@@ -34,9 +56,9 @@ Open [http://localhost:4000](http://localhost:4000) to interact with the ⚛ Gra
 
 Your GraphQL Playground should look something similar to this:
 
-![GraphQL Playground](./playground.png)
+![GraphQL Playground](./images//playground.png)
 
-Try out your first query!
+### Try out your first query! 🛒
 
 ```gql
 query GET_BOOKS {
